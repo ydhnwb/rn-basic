@@ -29,4 +29,23 @@ export const HomeStyle = StyleSheet.create({
     width: 120,
     borderRadius: 10,
   },
+  ButtonHeroContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 20,
+  },
+  ButtonContainer: {
+    height: 40,
+    width: 140,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 6,
+    elevation: 2,
+  },
+  firstButton: {
+    backgroundColor: 'white',
+  },
+  secondButton: {
+    backgroundColor: '#5374FF',
+  },
 });
