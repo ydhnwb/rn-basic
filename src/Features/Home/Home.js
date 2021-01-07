@@ -12,7 +12,12 @@ class Home extends Component {
     return (
       <View style={[HomeStyle.Container]}>
         <View style={HomeStyle.topContainer}>
-          <View style={HomeStyle.HeroContainer}></View>
+          <View style={HomeStyle.HeroContainer}>
+            <Image
+              source={require('../../Assets/Images/brew.jpeg')}
+              style={HomeStyle.HeroImage}
+            />
+          </View>
         </View>
         <View style={HomeStyle.BottomContainer}></View>
       </View>
